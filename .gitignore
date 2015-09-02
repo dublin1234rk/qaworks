@@ -1,0 +1,13 @@
+.project
+.settings
+target
+.idea
+.classpath
+.checkstyle
+*.log
+*.log.*
+*.iml
+*.iws
+*.ipr
+*.ignore
+bin
