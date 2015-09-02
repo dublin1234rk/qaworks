@@ -1,0 +1,56 @@
+<acceptance-test-run title="Valid submission" name="Valid submission" description="" steps="3" successful="2" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="16623" timestamp="2015-09-02T23:43:18.240+01:00">
+  <user-story id="contact-us-page" name="Contact Us Page" path="contact_us.feature"/>
+  <tags>
+    <tag name="Contact Us Page" type="feature"/>
+  </tags>
+  <test-group name="Given I navigate to QAWorks site" result="SUCCESS">
+    <screenshots>
+      <screenshot image="bbe16848452e88d544e3c216eb7610ec_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7033">
+      <screenshots>
+        <screenshot image="bbe16848452e88d544e3c216eb7610ec_NONE.png"/>
+      </screenshots>
+      <description>Navigate to QA works site</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I want to know more about QAWorks exciting services" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1764d4111d9e8d122b94893b90583554_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1348">
+      <screenshots>
+        <screenshot image="cab60c04417615d869376a4a8bee0c52_NONE.png"/>
+      </screenshots>
+      <description>Want to know more about qa works</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I should be able to contact QAWorks with the following information&#xd;&#xa;| name | email | message |&#xd;&#xa;| J.Bloggs | J.Bloggs@qaworks.com | please contact me I want to find out more |" result="ERROR">
+    <screenshots>
+      <screenshot image="1764d4111d9e8d122b94893b90583554_NONE.png"/>
+    </screenshots>
+    <test-step result="ERROR" duration="6662">
+      <screenshots>
+        <screenshot image="1764d4111d9e8d122b94893b90583554_NONE.png"/>
+      </screenshots>
+      <description>Should contact qa works: &lt;span class=&apos;step-parameter&apos;&gt;com.qaworks.acceptancetests.model.Contact@6ff37443&lt;/span&gt;</description>
+      <error>org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds waiting for net.serenitybdd.core.pages.WebElementFacadeImpl$1@3c89bb12
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Koteswara&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Koteswara&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Timed out after 5 seconds waiting for net.serenitybdd.core.pages.WebElementFacadeImpl$1@3c89bb12
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Koteswara&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Koteswara&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: unknown&#xd;
+[com.qaworks.acceptancetests.pages.ContactUsPage.getName(ContactUsPage.java:34), com.qaworks.acceptancetests.features.steps.serenity.UserContactSteps.should_contact_QAWorks(UserContactSteps.java:27), com.qaworks.acceptancetests.features.steps.ContactSteps.i_should_be_able_to_contact_QAWorks_with_the_following_information(ContactSteps.java:31), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

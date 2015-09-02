@@ -1,0 +1,9 @@
+com\qaworks\acceptancetests\features\steps\serenity\UserContactSteps.class
+com\qaworks\acceptancetests\features\steps\ContactSteps.class
+com\qaworks\acceptancetests\features\steps\serenity\UserHomeSteps.class
+com\qaworks\acceptancetests\pages\MenuPage.class
+com\qaworks\acceptancetests\features\ContactTests.class
+com\qaworks\acceptancetests\features\HomeTests.class
+com\qaworks\acceptancetests\pages\ContactUsPage.class
+com\qaworks\acceptancetests\features\steps\HomeSteps.class
+com\qaworks\acceptancetests\pages\HomePage.class
