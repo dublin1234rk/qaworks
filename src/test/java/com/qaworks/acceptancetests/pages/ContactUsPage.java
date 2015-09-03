@@ -1,5 +1,8 @@
 package com.qaworks.acceptancetests.pages;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import com.qaworks.acceptancetests.model.Contact;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -37,6 +40,12 @@ public class ContactUsPage extends PageObject {
 
 	public void navigateToCareers() {
 		careers.click();
+		 waitABit(3000);
+		Set<String> windows = getDriver().getWindowHandles();
+		Iterator<String> it = windows.iterator();
+		String firstWindow = it.next();
+		String secondWindow = it.next();
+		getDriver().switchTo().window(secondWindow);
 	}
 
 }

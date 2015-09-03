@@ -36,7 +36,7 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -44,7 +44,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors',  1]
+                ['Errors',  0]
             ]
         ], {
 
@@ -73,17 +73,17 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 / 1 tests passed' },
+                {label: '1 / 1 tests passed' },
                 {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed'},
-                {label: '1 / 1 errors'}
+                {label: '0 / 1 errors'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 
                 ['Pending', 0],
                 
@@ -91,7 +91,7 @@
                 
                 ['Failing', 0],
                 
-                ['Errors', 1]
+                ['Errors', 0]
             ]
         ], {
 
@@ -121,11 +121,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 / 1 tests passed (0% of all test steps)' },
+                {label: '1 / 1 tests passed (1% of all test steps)' },
                 {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed (0% of all test steps)'},
-                {label: '1 / 1 errors (1% of all test steps)'}
+                {label: '0 / 1 errors (0% of all test steps)'}
             ]
         });
 
@@ -197,7 +197,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-09-2015 23:14</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-09-2015 01:37</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -216,8 +216,9 @@
                 <div>
 
                 <span class="test-count">
-                    0
-passed,
+                    1
+                        <a href="b975a34f7fc5479c3c31ea2f6d1bb1d3e68b75a67ac78273129bee68b6161993.html">passed</a>
+                    ,
                 </span>
                 <span class="test-count">
                     0
@@ -228,9 +229,8 @@ pending,
 failed,
                 </span>
                 <span class="test-count">
-                    1
-                        <a href="931341b0fb3c8b127a59f9a971a1a641adac0212d0d3a621eada3ebc9ba98bd4.html">with errors</a>
-                    ,
+                    0
+errors,
                 </span>
                 <span class="test-count">
                     0
@@ -286,8 +286,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -302,14 +302,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
-            <td>1 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">17 seconds</td>
+                <td colspan="5">19 seconds</td>
         </tr>
         </body>
     </table>
@@ -365,8 +365,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -381,14 +381,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
-            <td>1 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">17 seconds</td>
+                <td colspan="5">19 seconds</td>
         </tr>
         </body>
     </table>
@@ -435,13 +435,13 @@ skipped
 
 
 
-                        <tr class="test-ERROR">
-                            <td><img src="images/cross.png" title="ERROR"
+                        <tr class="test-SUCCESS">
+                            <td><img src="images/success.png" title="SUCCESS"
                                      class="summary-icon"/>
                                 
-                                <span style="display:none">ERROR</span></td>
-                            <td class="ERROR-text">
-                                <a href="47ab533b8e8abc9ac1b585d9cf613bf337fa90840904fc0b848c24899be41216.html" class="ellipsis" title="org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for net.serenitybdd.core.pages.WebElementFacadeImpl$1@476ec9d0 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50' System info: host: 'Koteswara', ip: '192.168.1.22', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51' Driver info: driver.version: unknown">
+                                <span style="display:none">SUCCESS</span></td>
+                            <td class="SUCCESS-text">
+                                <a href="47ab533b8e8abc9ac1b585d9cf613bf337fa90840904fc0b848c24899be41216.html" class="ellipsis" title="">
                                     Valid submission 
                                 </a>
                             </td>
@@ -455,7 +455,7 @@ skipped
                                      class="summary-icon"/>
                                 <span style="display:none">0</span>
                             </td>
-                            <td class="lightgreentext">16.51</td>
+                            <td class="lightgreentext">19.28</td>
                         </tr>
                         </tbody>
                     </table>
