@@ -1,17 +1,18 @@
-<acceptance-test-run title="Display Home Page" name="Display Home Page" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12870" timestamp="2015-09-03T01:37:02.201+01:00">
+<acceptance-test-run title="Display Home Page" name="Display Home Page" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8556" timestamp="2015-09-03T21:10:23.626+01:00">
   <user-story id="home-page" name="Home Page" path="home.feature"/>
   <tags>
     <tag name="Home" type="capability"/>
     <tag name="Home Page" type="feature"/>
+    <tag name="Home" type="story"/>
   </tags>
-  <test-step result="SUCCESS" duration="12">
+  <test-step result="SUCCESS" duration="10">
     <description>Given I am an end user</description>
   </test-step>
   <test-group name="When I navigate to QAWorks site" result="SUCCESS">
     <screenshots>
       <screenshot image="bbe16848452e88d544e3c216eb7610ec_NONE.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="11151">
+    <test-step result="SUCCESS" duration="6903">
       <screenshots>
         <screenshot image="bbe16848452e88d544e3c216eb7610ec_NONE.png"/>
       </screenshots>
@@ -22,7 +23,7 @@
     <screenshots>
       <screenshot image="bbe16848452e88d544e3c216eb7610ec_NONE.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="703">
+    <test-step result="SUCCESS" duration="687">
       <screenshots>
         <screenshot image="bbe16848452e88d544e3c216eb7610ec_NONE.png"/>
       </screenshots>
